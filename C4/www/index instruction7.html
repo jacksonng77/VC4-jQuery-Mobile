@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+
+    <script src="lib/jquery-1.11.2.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+
+    <title>C4</title>
+</head>
+<body>
+<div data-role="header" class="header" data-position="fixed">
+    <a href="#" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+        <h1>Welcome!</h1>
+    <a href="#" class="ui-btn ui-icon-search ui-btn-icon-right">Search</a>
+
+
+</div>
+
+<div class="app">
+    <div data-role="main" class="ui-content">
+    </div>
+</div>
+
+<div data-role="footer" style="text-align:center;" data-position="fixed">
+    <div data-role="controlgroup" data-type="horizontal">
+        <a href="#" class="ui-btn ui-icon-calendar ui-btn-icon-left">Calendar</a>
+        <a href="#" class="ui-btn ui-icon-gear ui-btn-icon-left">Settings</a>
+    </div>
+</div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
